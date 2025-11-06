@@ -1,4 +1,5 @@
-<div style="background-image:https://raw.githubusercontent.com/Guto-Correia/Guto-Correia/refs/heads/main/fundo.jpg;">
+<div>
+  <img src="https://github.com/Guto-Correia/Guto-Correia/blob/main/fundo.jpg" alt="#">
 ## Hi there 👋
 
 
