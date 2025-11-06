@@ -1,4 +1,5 @@
 # 👋 Olá, eu sou o Guto!
+<img src="fundo.jpg">
 
 Sou um desenvolvedor apaixonado por front-end e design minimalista.  
 Atualmente estudando **HTML**, **CSS** e **JavaScript**.
