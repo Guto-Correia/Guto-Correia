@@ -13,7 +13,7 @@ Atualmente estudando **HTML**, **CSS** , **JavaScript** e **php**.
 - JavaScript
 
 ## 📫 Como me encontrar
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=0A66C2)](https://www.linkedin.com/in/guto-correia/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=0e76a8)](https://www.linkedin.com/in/guto-correia/)
 [![Instagram](https://img.shields.io/badge/Instagram-fff?style=for-the-badge&logo=instagram&logoColor=dc2743)](https://www.instagram.com/guto_gaspa)
 
 ## ⚡ Curiosidades
