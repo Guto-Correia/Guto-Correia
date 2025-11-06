@@ -1,12 +1,4 @@
-
-<section style="background-image: url(fundo.jpg); height: 1000px;">
-    <h2>aaaaaaaddddd</h2>
-    <h2>aaaaaaaaaaaa</h2>
-    <h2>aaaaaaaaaaaa</h2>
-    <h2>aaaaaaaaaaaa</h2>
-    <h2>aaaaaaaaaaaa</h2>
-    <h2>aaaaaaaaaaaa</h2>
-    <h2>aaaaaaaaaaaa</h2>
-    <h2>aaaaaaaaaaaa</h2>
-    <h2>aaaaaaaaaaaa</h2>
+<img src="fundo.jpg" alt="#">
+<section>
+    <h2 style="font-size: 50px;">ffffffff</h2>
 </section>
