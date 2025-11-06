@@ -14,7 +14,6 @@ Atualmente estudando **HTML**, **CSS** , **JavaScript** e **php**.
 
 ## 📫 Como me encontrar
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=0A66C2)](https://www.linkedin.com/in/guto-correia/)
-[![Email](https://img.shields.io/badge/Email-000?style=for-the-badge&logo=gmail&logoColor=EA4335)](mailto:correiaguto7@gmail.com)
 
 ## ⚡ Curiosidades
 - 🧩 Amo resolver problemas
