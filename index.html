@@ -6,8 +6,13 @@
     <title>Teste de js no console</title>
 </head>
 <style>
+    *{
+        font: 26px sans-serif;
+    }
     body{
         background-color: lightblue;
+        width: 100vw;
+        height: 100vh;
     }
     button{
         padding: 15px;
@@ -18,5 +23,19 @@
     <div id="box1">box1</div>
     <div id="box2">box2</div>
     <button id="btn">Mudar Cor</button>
+    <script>
+        document.querySelector("button").addEventListener("click" , mudarcor);
+        let corpo = document.querySelector("body")
+            let corFundo = true;
+        function mudarcor() {
+            if(corFundo){
+                corpo.style.backgroundColor =  'pink';
+                corFundo = false;
+            } else{
+                corpo.style.backgroundColor =  'lightblue';
+                corFundo = true;
+            }
+        }
+    </script>
 </body>
 </html>
