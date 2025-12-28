@@ -35,7 +35,7 @@
             margin-left: 10px;
         }
         button{
-            margin-bottom: 15px;
+            margin: 15px 10px;
             border: none;
             background-color: aquamarine;
             padding: 10px 20px;
@@ -52,6 +52,7 @@
             max-width: 500px;
             width: 100%;
             margin: auto;
+            padding: 10px;
         }
     </style>
 </head>
@@ -61,14 +62,39 @@
     <div>
         <h2>Adicione sua lista</h2>
         <p>escreva a tarefa que deseja  salvar: <input type="text" name="txt" id="txt"></p>
-        <button type="submit">SALVAR</button>
+        <button type="submit" id="salvar">SALVAR</button>
 
         <ul>
-            <li>item1</li>
         </ul>
+        <button id="remover">REMOVER ITENS</button>
     </div>
     <script>
+        document.querySelector("button#salvar").addEventListener("click" , salvar);
+        let texto = document.querySelector("input");
+        let lista = document.querySelector("ul");
+        function salvar() {
+                let txtValor = texto.value;
+                    if(txtValor.length >= 3 && txtValor.length < 20 ){
+                            let li = document.createElement("li"); //cria a tag,mas não da para vela ainda
+                            li.innerHTML = ` ${txtValor} <input type = "checkbox" id = "bol">`;
+                            lista.appendChild(li) //adiciona a tag ao pai
+                            texto.value = ""; //reseta o valor do input
+                        } else{
+                                alert("texto muito pequeno")
+                        }
+        }
+        document.querySelector("button#remover").addEventListener("click" , remover);
+        function remover() {
+                let itens = lista.querySelectorAll("li");
 
+                for (let i = 0; i < itens.length; i++) {
+                    let checkbox = itens[i].querySelector("input");
+
+                    if (checkbox.checked) {
+                        itens[i].remove();
+                    }   
+                }
+        }
     </script>
 </body>
 
