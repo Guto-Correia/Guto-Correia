@@ -1,4 +1,4 @@
-# 👋 Olá, eu sou o Guto!
+w# 👋 Olá, eu sou o Guto!
 Sou um desenvolvedor apaixonado por front-end e design minimalista.  
 Atualmente estudando **HTML**, **CSS** , **JavaScript** e **php**.
 
