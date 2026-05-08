@@ -10,13 +10,15 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100%;
     font-size: 1rem;
+    padding: 50px;
 }
 .container{
     border-radius: 10px;
     background-color: #967c5e;
     padding: 20px;
+    position: relative;
 }
 .header-btns{
     display: flex;
@@ -24,6 +26,8 @@ body{
     background-color: #b89c7c;
     padding: 15px;
     border-radius: 10px;
+    position: sticky;
+    top: 0px;
 }
 button{
     border: none;

@@ -11,16 +11,17 @@
     <div class="container">
 
         <div class="header-btns">
-            <button>criar</button>
-            <button>listar</button>
+            <button type="button" class="post" onclick="postOrList(this.className)">criar</button>
+            <button type="button" class="list" onclick="postOrList(this.className)">listar</button>
         </div>
 
-        <div class="pai-img"><img src="imgs/proj-twiter.jpg" alt=""></div>
-
-        <div class="pai-btns">
-            <button>Curtir🩷</button>
-            <button>Editar📝</button>
-            <button>Deletar🗑️</button>
+        <div class="div-clone">
+            <div class="pai-img"><img src="imgs/proj-twiter.jpg" alt=""></div>
+            <div class="pai-btns">
+                <button type="button">Curtir🩷</button>
+                <button type="button">Editar📝</button>
+                <button type="button">Deletar🗑️</button>
+            </div>
         </div>
 
     </div>
